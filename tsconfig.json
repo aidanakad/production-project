@@ -8,6 +8,9 @@
     "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //allow to use usual import package
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
