@@ -10,12 +10,11 @@ import {NavBar} from "widgets/NavBar";
 
 const App = ()=> {
 
-    const {theme, toggleTheme} = useTheme()
+    const {theme} = useTheme()
     return (
         <div className= {classNames('app', {hovered: true, selected: false}, [theme,  ])}>
 
             <NavBar/>
-            <button onClick={toggleTheme}>toggle</button>
             <AppRouter/>
         </div>
     );
