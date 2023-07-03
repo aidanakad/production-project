@@ -1,3 +1,3 @@
-export function someFn (){
-    console.log('ok')
+export function someFn() {
+    console.log('ok');
 }
